@@ -1,0 +1,9 @@
+<box>
+    <pointCloudNearThreshold>534</pointCloudNearThreshold>
+    <pointCloudFarThreshold>1000</pointCloudFarThreshold>
+    <pointCloudFloorThreshold>157</pointCloudFloorThreshold>
+    <pointCloudRoofThreshold>453</pointCloudRoofThreshold>
+    <pointCloudRightThreshold>477</pointCloudRightThreshold>
+    <pointCloudLeftThreshold>-24</pointCloudLeftThreshold>
+    <CalibrationPoints>6403.000000000</CalibrationPoints>
+</box>

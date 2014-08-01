@@ -1,0 +1,7 @@
+ofxKinect
+ofxOpenCv
+ofxXmlSettings
+ofxMSAInteractiveObject
+ofxMtlMapping2D
+ofxSyphon
+ofxUI
