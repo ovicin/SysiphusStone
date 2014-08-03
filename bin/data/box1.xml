@@ -5,5 +5,5 @@
     <pointCloudRoofThreshold>453</pointCloudRoofThreshold>
     <pointCloudRightThreshold>477</pointCloudRightThreshold>
     <pointCloudLeftThreshold>-24</pointCloudLeftThreshold>
-    <CalibrationPoints>6403.000000000</CalibrationPoints>
+    <CalibrationPoints>1885.000000000</CalibrationPoints>
 </box>

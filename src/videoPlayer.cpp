@@ -22,7 +22,7 @@ videoPlayer::videoPlayer(){
     mov.setPixelFormat(OF_PIXELS_RGBA);
     ofQTKitDecodeMode decodeMode = OF_QTKIT_DECODE_PIXELS_AND_TEXTURE;
 	
-	mov.loadMovie("SISYPHYS_MAIN_test.mov", decodeMode);
+	mov.loadMovie("MAIN.mov", decodeMode);
     
     mov.setLoopState(OF_LOOP_NONE);
     
@@ -30,7 +30,7 @@ videoPlayer::videoPlayer(){
     
     mov.play();
     mov.setSynchronousSeeking(false);
-    
+    mov.setVolume(0.5f);
     mainOutputSyphonServer.setName("Screen Output");
     
     soundObj.loadSound("rock10.wav");
@@ -89,16 +89,16 @@ void videoPlayer::draw(void){
     glClearColor(0.0, 0.0, 0.0, 0.0);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     // ----
-    _mapping->bind();
+    //_mapping->bind();
     
     if (mov.isLoaded())
-    mov.draw(10,10);
+    mov.draw(0,0);
     /*ofSetColor(50);
     ofDrawBitmapString("Speed"+ofToString(mov.getSpeed()), 20,20);*/
 
-     _mapping->unbind();
+     //_mapping->unbind();
     
-    _mapping->draw();
+    //_mapping->draw();
     
     mainOutputSyphonServer.publishScreen();
 }

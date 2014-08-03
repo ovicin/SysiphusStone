@@ -55,7 +55,7 @@ void ofApp::setup()
 	// start from the front
 	bDrawPointCloud = false;
     
-    texture.loadImage("stoneTex.jpg");
+    //texture.loadImage("stoneTex.jpg");
     
 
     //fulscreen = false;
